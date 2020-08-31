@@ -51,7 +51,7 @@ def entryy():
         sys.stdout.flush()
         sleep(0.0065)
 
-    tt = " " * 6 + "░⣿" + " " * 18 + "WELCOME TO XSS FINDER TOOL" + " " * 17 + "░⣿" + "\n\n"
+    tt = " " * 6 + "░⣿" + " " * 18 + "WELCOME TO XSS FINDER TOOL" + " " * 11 + "░⣿" + "\n\n"
     for c in tt:
         print(colors.CWHITE + c, end='')
         sys.stdout.flush()
