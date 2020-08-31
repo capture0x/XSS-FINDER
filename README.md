@@ -1,6 +1,6 @@
 # 🍀 &nbsp;  XSS FINDER &nbsp;  🍀
 
-<img src="https://imgur.com/lOurG4v" width="60%"></img>
+<img src="https://i.imgur.com/lOurG4v.png" width="60%"></img>
 
 
 
