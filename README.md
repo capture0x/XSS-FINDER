@@ -35,7 +35,7 @@ chmod -R 755 xss.py
 python3 xss.py
 
 ```
-
+Firefox geckodriver ==> https://github.com/mozilla/geckodriver/issues/1600
 
 
 ## Bugs and enhancements
