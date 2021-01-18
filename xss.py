@@ -69,7 +69,7 @@ def xssInj(c):
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
-    browser = webdriver.Chrome(executable_path="/usr/bin/chromedriver",chrome_options=chrome_options)
+    browser = webdriver.Chrome(executable_path="/usr/bin/chromedriver", options=chrome_options)
     browser.maximize_window()
     count = 0
     with open("myfile.txt", "r", encoding="UTF-8") as file:
@@ -82,11 +82,11 @@ def xssInj(c):
                 if count == len(a):
                     browser.close()
         except UnexpectedAlertPresentException:
-            print("Successful Payload==>", a[count - 1])
+            print(colors.CRED + "Successful Payload==>", a[count - 1])
             print("Url==>" + c + a[count - 1])
             sleep(5)
             browser.quit()
 
 
 entryy()
-xssInj(input("ex:https://xss-game.appspot.com/level1/frame?query=\nPlease enter target site:"))
+xssInj(input(colors.CBLUE + "ex:https://xss-game.appspot.com/level1/frame?query=\nPlease enter target site:"))
