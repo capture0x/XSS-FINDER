@@ -6,7 +6,6 @@ import sys
 from selenium.webdriver.chrome.options import Options
 
 
-
 class colors:
     OKBLUE = '\033[94m'
     WARNING = '\033[93m'
