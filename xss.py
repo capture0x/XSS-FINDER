@@ -65,6 +65,7 @@ def entryy():
 
 
 def xssInj(c):
+    print("Trying payloads list, PLease wait...")
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
