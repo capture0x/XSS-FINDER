@@ -78,6 +78,7 @@ def xssInj(c):
         try:
             while count < len(a):
                 browser.get(c + a[count])
+                print("Testing: " + a[count])
                 sleep(random.randint(1, 3))
                 count += 1
                 if count == len(a):
