@@ -70,7 +70,7 @@ def xssInj(c):
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
-    browser = webdriver.Chrome(executable_path="/usr/bin/chromedriver", options=chrome_options)
+    browser = webdriver.Chrome(options=chrome_options)
     browser.maximize_window()
     count = 0
     with open("myfile.txt", "r", encoding="UTF-8") as file:
