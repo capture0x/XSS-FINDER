@@ -5,7 +5,7 @@
 
 
 #### Written by TMRSWRR 
-#### Version 1.0.0
+#### Version 2.0.0
 
 
 Instagram: [TMRSWRR](https://www.instagram.com/tmrswrr/)
@@ -40,6 +40,6 @@ THIS IS FOR LATEST GOOGLE CHROME VERSION
 
 ## Bugs and enhancements
 
-For bug reports or enhancements, please open an [issue](https://github.com/capture0x/mailExtractor/issues) here.
+For bug reports or enhancements, please open an [issue](https://github.com/capture0x/XSS-FINDER/issues) here.
 
-**Copyright 2020**
+**Copyright 2023**
