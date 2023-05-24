@@ -36,8 +36,7 @@ chmod -R 755 xss.py
 python3 xss.py
 
 ```
-Firefox geckodriver for can't kill an exited process  ==> https://github.com/mozilla/geckodriver/issues/1600
-
+THIS IS FOR LATEST GOOGLE CHROME VERSION
 
 ## Bugs and enhancements
 
