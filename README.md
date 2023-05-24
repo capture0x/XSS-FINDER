@@ -19,6 +19,9 @@ Instagram: [TMRSWRR](https://www.instagram.com/tmrswrr/)
 
 Click on the image...
 
+
+Introducing XSS Finder, an exceptional open-source security tool built to detect Cross-Site Scripting (XSS) vulnerabilities with an impressive track record of delivering zero false positives. XSS vulnerabilities pose a significant threat to web applications, making accurate identification crucial for maintaining their integrity and protecting users' data.
+
 This tool works with geckodriver, search url for xss vuln and when get an alert on the screen, it notifies you of the successful payload.
 
 ## 📀 Installation 📀
